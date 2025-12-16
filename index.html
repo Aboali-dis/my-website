@@ -1,136 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
   <meta charset="UTF-8">
-  <title>Digital Services</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <title>موقعي</title>
   <style>
-    * {
-      box-sizing: border-box;
-      font-family: Arial, sans-serif;
-    }
-
     body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
       margin: 0;
       padding: 0;
-      background: #1f3c6b;
-      display: flex;
-      justify-content: center;
+      direction: rtl;
     }
-
     .container {
-      width: 100%;
-      max-width: 1100px;
-      padding: 40px 20px;
+      max-width: 900px;
+      margin: 40px auto;
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
-
-    .box {
-  width: 80%;
-  max-width: 500px;
-  margin: 0 auto 40px auto;
-  background: #f4f6f8;
-  border-radius: 16px;
-  padding: 24px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
-  text-align: center;
-}
-
     h1 {
-      margin-top: 0;
-      font-size: 36px;
-      color: #222;
-    }
-
-    p {
-      font-size: 16px;
-      color: #444;
-      line-height: 1.6;
-    }
-
-    .services {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 30px;
-      margin-bottom: 40px;
-    }
-
-    .service-box {
-      background: #f4f6f8;
-      border-radius: 16px;
-      padding: 30px;
-      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
-      cursor: pointer;
-      transition: transform 0.3s;
       text-align: center;
+      color: #333;
     }
-
-    .service-box:hover {
-      transform: translateY(-6px);
-    }
-
-    .service-box h3 {
-      margin: 0;
-      color: #1f3c6b;
-      font-size: 22px;
-    }
-
-    @media (max-width: 700px) {
-      h1 {
-        font-size: 28px;
-      }
-
-      .services {
-        grid-template-columns: 1fr;
-      }
+    .box {
+      border: 2px solid #ddd;
+      border-radius: 10px;
+      padding: 15px;
+      margin: 15px 0;
+      background: #fafafa;
     }
   </style>
 </head>
-
 <body>
+
   <div class="container">
+    <h1>مرحبا بك</h1>
 
-    <!-- Welcome Box -->
     <div class="box">
-      <h1>Welcome — we’re glad you’re here.</h1>
-      <p>
-        We truly appreciate your visit and look forward to supporting you with
-        reliable, high-quality digital services. Our goal is simple: to understand
-        your needs and deliver results you can trust.
-      </p>
-      <p>
-        We hope to earn your confidence and never let your expectations down.
-      </p>
+      <strong>اسم العميل:</strong><br>
+      هنا يكتب اسم العميل
     </div>
 
-    <!-- Services -->
-    <div class="services">
-      <div class="service-box">
-        <h3>Design Services</h3>
-      </div>
-
-      <div class="service-box">
-        <h3>Web Development</h3>
-      </div>
-
-      <div class="service-box">
-        <h3>Student Services</h3>
-      </div>
-
-      <div class="service-box">
-        <h3>General Digital Services</h3>
-      </div>
-    </div>
-
-    <!-- About Box -->
     <div class="box">
-      <h1>About Our Platform</h1>
-      <p>
-        We provide a wide range of digital solutions tailored to meet your needs,
-        combining creativity, technology, and reliability in one place.
-      </p>
+      <strong>الخدمة:</strong><br>
+      هنا تفاصيل الخدمة
     </div>
 
+    <div class="box">
+      <strong>ملاحظات:</strong><br>
+      هنا أي ملاحظات إضافية
+    </div>
   </div>
+
 </body>
 </html>
